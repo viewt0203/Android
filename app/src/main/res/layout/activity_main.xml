@@ -11,18 +11,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="9dp"
-        android:text="@string/Num1"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="11dp"
+        android:layout_marginBottom="9dp"
         android:text="@string/Num1"
         app:layout_constraintBottom_toBottomOf="@+id/editTextNumber"
-        app:layout_constraintStart_toStartOf="@+id/textView" />
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumber"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextNumber"
@@ -66,7 +59,8 @@
         android:backgroundTint="#BEBEBE"
         android:text="@string/Button1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
@@ -75,7 +69,8 @@
         android:backgroundTint="#BEBEBE"
         android:text="@string/Button2"
         app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button3"
@@ -84,7 +79,8 @@
         android:backgroundTint="#BEBEBE"
         android:text="@string/Button3"
         app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button4"
@@ -93,7 +89,8 @@
         android:backgroundTint="#BEBEBE"
         android:text="@string/Button4"
         app:layout_constraintStart_toStartOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView5"
@@ -114,6 +111,7 @@
         android:ems="10"
         android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
